@@ -8,6 +8,7 @@ button.addEventListener('click',function(){
         let resultado = num*i;
         let linha=document.createElement('p');
         linha.textContent=`${num} x ${i} = ${resultado}`;
+        
         tabuada.appendChild(linha);
     }
 });
